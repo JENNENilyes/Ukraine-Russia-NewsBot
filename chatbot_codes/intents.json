@@ -1,0 +1,52 @@
+{"intents": [
+  { "tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+  },
+  { "tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+  },
+  { "tag": "helpMilitary",
+    "patterns": ["Which countries are sending military aid to Ukraine?", "Which nations are sending military weapons to Ukraine?"],
+    "responses": ["At least 13 countries (US,UK,France,Spain...),  have started to send military aid to Ukraine. \nhttps://www.aljazeera.com/wp-content/uploads/2022/02/INTERACTIVE_RUSSIAN_INVASION_COUNTRIES_SENDING_AID-01-01.jpg?w=770&resize=770%2C769"]
+  },
+  { "tag": "wounded",
+    "patterns": ["how many wounded in ukraine conflict ?", "How many people were injured in the Ukrainian conflict?"],
+    "responses": ["1,684 people, including 116 children, have been wounded."]
+  },
+  { "tag": "death",
+    "patterns": ["How many have died in the Ukraine crisis ?","How many has died in Ukraine?","Ukraine death toll","What is the death toll in Ukraine?"],
+    "responses": ["Ukraine's health ministry said on Sunday that 352 civilians, including 14 children, have been killed since the start of Russia's invasion on February 24."]
+  }
+  ,
+  { "tag": "fleeing",
+    "patterns": ["Where are people fleeing to ?","Where do people escape to?","escape people"],
+    "responses": ["At least 660,000 people have fled Ukraine into Poland and other neighbouring countries (Hungary,Slovakia,Romania). \nhttps://www.aljazeera.com/wp-content/uploads/2022/03/INTERACTIVE-Where-are-Ukrainians-fleeing-to-DAY-8.jpg?w=770&resize=770%2C770"]
+  },
+  { "tag": "controls",
+    "patterns": ["Who controls what in Ukraine?","What does Russia control in Ukraine?","Which part of Ukraine is controlled by Russia ?"],
+    "responses": ["Battles continue across the country as Russian forces close on the capital, Kyiv .Blasts have also been heard across the country's second-largest city, Kharkiv \nhttps://www.aljazeera.com/wp-content/uploads/2022/03/INTERACTIVE-Russia-Ukraine-map-Who-controls-what-in-Ukraine-DAY-8.png?w=770&resize=770%2C769"]
+  },
+  { "tag": "allies",
+    "patterns": ["Who are Russia's allies in the Ukraine conflict ?","Who are Russia's supporters in the Ukrainian conflict?","Who are Russia's partners in the Ukrainian conflict?","Who are Russia's partners in the Ukrainian war?"],
+    "responses": ["Russia's allies in the Ukraine conflict are china , Belarus,Armenia, Kazakhstan and Azerbaijani "]
+  },
+  { "tag": "update",
+    "patterns": ["What are the news about Russian and Ukraine conflict?","What is the news about the conflict between Russia and Ukraine?","What's the latest on the conflict between Russia and Ukraine?","What's the update on the Russia-Ukraine conflict?","What's the new situation regarding the conflict between Russia and Ukraine?"],
+    "responses": ["https://www-aljazeera-com.cdn.ampproject.org/v/s/www.aljazeera.com/amp/news/2022/2/28/ukraine-russia-talks-due-to-begin-early-on-monday-live-news?amp_js_v=a6&amp_gsa=1&usqp=mq331AQKKAFQArABIIACAw%3D%3D#aoh=16460766562627&referrer=https%3A%2F%2Fwww.google.com&amp_tf=Source%C2%A0%3A%20%251%24s&ampshare=https%3A%2F%2Fwww.aljazeera.com%2Fnews%2F2022%2F2%2F28%2Fukraine-russia-talks-due-to-begin-early-on-monday-live-news"]
+  },
+  { "tag": "started",
+    "patterns": ["What is problem between Ukraine and Russia?","why there is a war in ukrain?","Why is Putin invading Ukraine?","What is the war between Ukraine and Russia?","What did Russia take from Ukraine?","What is the issue between Russia and Ukraine?","how the wars started in ukraine","how did the wars start in ukraine?","how did the wars begin ?","what happened between russia and ukraine?"],
+    "responses": ["The Russian-Ukrainian conflict, which began on November 21, 2013, following the Ukrainian government's decision not to sign the Association Agreement between Ukraine and the European Union, is a diplomatic and military conflict between Russia and Ukraine."]
+  },
+  { "tag": "impact",
+    "patterns": ["what is the impact on the world ?","what is the effect on the world?","How does the war affect the economy?"],
+    "responses": ["Russia's invasion of Ukraine carries huge risks for the world economy that's yet to fully recover from the pandemic shock"]
+  },
+  { "tag": "sanction",
+    "patterns": ["what are the sanctions on russia","what are the sanctions against russia?","what are the penalties against russia?","what kind of sanctions does russia face ?"],
+    "responses": ["US, EU, UK, Japan, Canada, Taiwan, and New Zealand unveil sanctions against Russia that target banks, military exports, and oil refineries."]
+  }
+]
+}
